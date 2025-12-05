@@ -56,7 +56,7 @@ int main() {
 
         if (IsKeyPressed(KEY_P)) {
             robot.set_animation({
-                Robot::AnimationKeyFrame{{0, 10*M_PI_2f}, {2, 2}, 5},
+                Robot::AnimationKeyFrame{{0, M_PI_2f}, {0, 0}, 1},
                 Robot::AnimationKeyFrame{{0, M_PI_2f}, {0, 0}, 1},
                 Robot::AnimationKeyFrame{{0, -M_PI_2f}, {0, 0}, 2},
                 Robot::AnimationKeyFrame{{0, -M_PIf}, {0, 0}, 3},
