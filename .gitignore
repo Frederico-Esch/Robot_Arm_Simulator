@@ -1,0 +1,11 @@
+build
+.cache
+
+models/ra
+models/pieces_bkp
+models/robotic_arm.glb
+models/robotic_arm_kuka.zip
+models/robotic_manipulator_low_poly.zip
+
+robot_arm.pdf
+robot_arm.tex
